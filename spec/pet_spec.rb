@@ -6,9 +6,7 @@ describe 'What should be inside /cats' do
       expect(File).to exist('./cats/indoor/back-alley/alley-cat.gif'), "\nDid you place alley-cat.gif inside the /cats/indoor/back-alley folder?"
     end
 
-    it "Grandma's cat" do
-      expect(File).to exist('./cats/indoor/grandmas-house/grandma-cat.jpg'), "\nDid you place grandma-cat.jpg inside the /cats/indoor/grandmas-house/ folder?"
-    end
+    
   end
 
   context 'inside of cats/outdoor should be' do
@@ -57,8 +55,5 @@ describe 'What should be inside of /elephants' do
   end
 
   context 'inside of /elephants/painters should be' do
-    it "the Painting Elephant" do
-      expect(File).to exist('./elephants/painters/painting-elephants.jpg'), "\nDid you place painting-elephants.jpg inside the /elephants/painters/ folder?"
-    end
   end
 end
